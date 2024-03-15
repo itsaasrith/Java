@@ -10,14 +10,14 @@ public class Loops {
         // }
         // System.out.println();
 
-        // int n= sc.nextInt();
-        // int i=1;
-        // int sum=0;
-        // while (i<=n) {
-        //     sum=sum+i;
-        //     i++;
-        // }
-        // System.out.println("sum is "+sum);
+        int n= sc.nextInt();
+        int i=1;
+        int sum=0;
+        while (i<=n) {
+            sum=sum+i;
+            i++;
+        }
+        System.out.println("sum is "+sum);
         // for(int i=1;i<=10;i++){
         //     System.out.println("Hello World");
         // }
@@ -35,7 +35,7 @@ public class Loops {
             //     n=n/10; 
             // }
             // System.out.println();
-        int n=sc.nextInt();
+        // int n=sc.nextInt();
         int temp=n;
         int rev=0;
         while (n>0) {
